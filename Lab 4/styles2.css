@@ -1,0 +1,106 @@
+.first {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 10px;
+
+    background-color: rgb(182, 114, 114);
+}
+
+.first #one {
+    width: 50%;
+    background-color: rgb(122, 122, 239);
+    margin-right: 10px;
+}
+
+.first #two {
+    width: 50%;
+    background-color: rgb(122, 122, 239);
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 15px;
+
+    background-color: rgb(182, 114, 114);
+}
+
+.second #three {
+    width: calc(100% / 3);
+    background-color: rgb(122, 122, 239);
+    margin-right: 15px;
+}
+
+.second #four {
+    width: calc(100% / 3);
+    background-color: rgb(122, 122, 239);
+    margin-right: 15px;
+}
+
+.second #five {
+    width: calc(100% / 3);
+    background-color: rgb(122, 122, 239);
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 12px;
+
+    background-color: rgb(182, 114, 114);
+}
+
+.third #six {
+    width: 50%;
+    background-color: rgb(122, 122, 239);
+    margin-right: 12px;
+    border: 2px solid black;
+}
+
+.third #seven {
+    width: 25%;
+    background-color: rgb(122, 122, 239);
+    margin-right: 12px;
+    border: 2px solid black;
+}
+
+.third #eight {
+    width: 25%;
+    background-color: rgb(122, 122, 239);
+    border: 2px solid black;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50px;
+    padding: 12px;
+    gap: 12px;
+    background-color: rgb(182, 114, 114);
+}
+
+.fourth2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50px;
+    padding: 12px;
+    padding-top: 0px;
+    background-color: rgb(182, 114, 114);
+}
+
+.fourth #nine, #ten, #eleven, #twelve {
+    width: 137.5px;
+    background-color: rgb(122, 122, 239);
+    border: 2px solid black;
+}
+
+.fourth2 #thirteen {
+    width: 100%;
+    background-color: rgb(122, 122, 239);
+    border: 2px solid black;
+}

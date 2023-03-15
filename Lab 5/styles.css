@@ -1,0 +1,21 @@
+.page-home .banner {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    float: left;
+    padding: 10px
+}
+
+form, input, textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+label {
+    float: left;
+    padding-right: 10px;
+}
