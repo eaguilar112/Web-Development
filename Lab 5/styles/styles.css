@@ -11,21 +11,21 @@
     padding: 10px;
 }
 
-#home, #contact {
+#home button {
     width: 100px;
-    height: 25px;
-    border: 1px solid #FF00FF;
-    cursor: pointer;
+    border: 2px solid #FF00FF;
 }
 
-#home a, #home a:hover, #contact a, #contact a:hover {
-    text-decoration: none;
+#contact button {
+    width: 100px;
+    border: 2px solid #FF00FF;
 }
 
-#home:hover, #contact:hover {
+#home button:hover, #contact button:hover {
+    width: 100px;
     background-color: #FF00FF;
     color: white;
-    text-decoration: none;
+    cursor: pointer;
 }
 
 form, input, textarea {
