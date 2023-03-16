@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-img {
+#logo {
     float: left;
     width: 100px;
     padding: 10px;
@@ -56,10 +56,12 @@ label {
 }
 
 footer {
-    position: absolute;
-    width: 20%;
-    left: 40%;
-    right: 40%;
+    position: fixed;
+    width: 100%;
     bottom: 1em;
     text-align: center;
+}
+
+#social a {
+    display: inline-block;
 }
