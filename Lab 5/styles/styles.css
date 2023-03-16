@@ -11,31 +11,21 @@
     padding: 10px;
 }
 
-.page-home .navigation1, a {
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    text-decoration: none;
-}
-
-.contact-page .navigation2, a {
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    text-decoration: none;
-}
-
-a button {
+#home, #contact {
+    width: 100px;
     height: 25px;
-    border: 2px solid #FF00FF;
-}
-
-a button:hover {
-    height: 25px;
-    background-color: #FF00FF;
-    border: 2px solid #FF00FF;
-    color: white;
+    border: 1px solid #FF00FF;
     cursor: pointer;
+}
+
+#home a, #home a:hover, #contact a, #contact a:hover {
+    text-decoration: none;
+}
+
+#home:hover, #contact:hover {
+    background-color: #FF00FF;
+    color: white;
+    text-decoration: none;
 }
 
 form, input, textarea {
