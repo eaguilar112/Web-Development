@@ -11,28 +11,29 @@
     padding: 10px;
 }
 
-#home button {
+.navigation, .navigation button {
+    display: inline-table;
+}
+
+.navigation button {
     width: 100px;
+    height: 25px;
     border: 2px solid #FF00FF;
 }
 
-#contact button {
-    width: 100px;
-    border: 2px solid #FF00FF;
-}
-
-#home button:hover, #contact button:hover {
-    width: 100px;
+.navigation button:hover {
     background-color: #FF00FF;
     color: white;
-    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    border: 2px solid #FF00FF;
 }
 
 form, input, textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px
+    gap: 10px;
 }
 
 label {
