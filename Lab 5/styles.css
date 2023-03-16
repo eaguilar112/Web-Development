@@ -1,11 +1,41 @@
-.page-home .banner {
+.banner {
     display: flex;
     flex-direction: row;
+    gap: 15px;
+    align-items: center;
 }
 
 img {
     float: left;
-    padding: 10px
+    width: 100px;
+    padding: 10px;
+}
+
+.page-home .navigation1, a {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    text-decoration: none;
+}
+
+.contact-page .navigation2, a {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    text-decoration: none;
+}
+
+a button {
+    height: 25px;
+    border: 2px solid #FF00FF;
+}
+
+a button:hover {
+    height: 25px;
+    background-color: #FF00FF;
+    border: 2px solid #FF00FF;
+    color: white;
+    cursor: pointer;
 }
 
 form, input, textarea {
@@ -18,4 +48,15 @@ form, input, textarea {
 label {
     float: left;
     padding-right: 10px;
+}
+
+#submit {
+    width: 150px;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
 }
