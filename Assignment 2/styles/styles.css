@@ -65,14 +65,11 @@ footer {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-header a {
-    color: black;
 }
 
 p, h2 {
@@ -99,15 +96,13 @@ header, footer {
     background-color: #c74365;
 }
 
-/*??????????*/
 main {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-/*??????????????*/
 header a {
-    size: 18px;
+    font-size: 18px;
 }
 
 .fixed-width img {
@@ -116,10 +111,13 @@ header a {
     padding: 10px;
 }
 
-/*?????????????*/
-.fixed-width h1, .fixed-width .flex {
-    line-height: 60px;
+.fixed-width h1, .fixed-width li {
+    line-height: 50px;
+}
 
+.fixed-width li {
+    position: relative;
+    right: -250px;
 }
 
 ul {
@@ -128,6 +126,7 @@ ul {
 
 footer {
     text-align: center;
+    padding: 15px;
 }
 
 /****************** home page styling ******************/
@@ -164,35 +163,41 @@ article {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
-.profile .wide-column {
+.fixed-width .wide-column {
     width: 420px;
 }
 
-.profile .light-background {
+.fixed-width .narrow-column {
     width: 180px;
 }
 
-.profile .wide-column .flex img {
+.fixed-width .wide-column .flex img {
     width: 120px;
+    height: auto;
+    margin-top: -10px;
 }
 
-.profile .labels {
+.wide-column .flex .labels, .narrow-column .flex .labels {
     font-weight: bold;
     width: 70px;
+    position: relative;
     text-align: right;
-    padding-right: 15px;
+    margin-right: 15px;
 }
 
-.profile .light-background {
+.light-background {
     background-color: lightgray;
     height: 140px;
-    /*shift down 30px*/
+    margin-bottom: 30px;
+    position: relative;
+    top: 30px;
 }
 
-.profile .light-background h2 {
-    /*shift down 10px*/
-    padding-left: 15px;
-    padding-bottom: 15px;
+.light-background h2 {
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 /****************** form styling ******************/
@@ -234,5 +239,6 @@ form button {
     height: 21px;
     width: 107.2px;
     margin-top: 30px;
-    /*space on left*/
+    position: relative;
+    right: -489px;
 }
